@@ -1,4 +1,4 @@
-"""DataUpdateCoordinator for hass_nuki_bt."""
+"""DataUpdateCoordinator for Nuki-Vega"""
 from __future__ import annotations
 
 import asyncio
