@@ -1,4 +1,4 @@
-"""Support for Nuki binary sensors."""
+"""Support for Nuki binary sensors"""
 from dataclasses import dataclass
 from collections.abc import Callable
 import logging
