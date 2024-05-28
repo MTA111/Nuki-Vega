@@ -17,7 +17,7 @@ This integration communicates directly with Nuki over Bluetooth. No need for bri
 ### Installation:
 * Go to HACS -> Integrations
 * Click the three dots on the top right and select `Custom Repositories`
-* Enter `https://github.com/MTA111/Nuki_Vega` as repository, select the category `Integration` and click Add
+* Enter `https://github.com/MTA111/Nuki-Vega` as repository, select the category `Integration` and click Add
 * A new custom integration shows up for installation (Nuki BT) - install it
 * Restart Home Assistant
 
@@ -34,7 +34,7 @@ This integration communicates directly with Nuki over Bluetooth. No need for bri
     Use this option only if you know what you are doing. This is mostly meant for development.
 
 #### Client Type:
-Nuki_Vega can connect to the Nuki lock in 2 ways:
+Nuki-Vega can connect to the Nuki lock in 2 ways:
   * "Bridge" is the recommended way. This will cause the current Bridge to be unregistered when pairing.
   * "App" will allow you to run hass_nuki_bt alongside a Nuki Bridge, but can lead to either device missing updates.
 
@@ -45,15 +45,15 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 
 ***
 
-[Nuki_Vega]: [https://github.com/MTA111/Nuki_Vega]
-[commits-shield]: https://img.shields.io/github/commit-activity/y/MTA111/Nuki_Vega.svg?style=for-the-badge
-[commits]: https://github.com/MTA111/Nuki_Vega/commits/main
+[Nuki_Vega]: [https://github.com/MTA111/Nuki-Vega]
+[commits-shield]: https://img.shields.io/github/commit-activity/y/MTA111/Nuki-Vega.svg?style=for-the-badge
+[commits]: https://github.com/MTA111/Nuki-Vega/commits/main
 [hacs]: https://github.com/hacs/integration
 [hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
 [exampleimg]: example.png
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/
-[license-shield]: https://img.shields.io/github/license/MTA111/Nuki_Vega.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/MTA111/Nuki-Vega.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/maintainer-%20%40MTA111-blue.svg?style=for-the-badge
-[releases-shield]: https://img.shields.io/github/release/MTA111/Nuki_Vega.svg?style=for-the-badge
-[releases]: https://github.com/MTA111/Nuki_Vega/releases
+[releases-shield]: https://img.shields.io/github/release/MTA111/Nuki-Vega.svg?style=for-the-badge
+[releases]: https://github.com/MTA111/Nuki-Vega/releases
