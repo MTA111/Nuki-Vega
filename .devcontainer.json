@@ -1,16 +1,15 @@
 {
-    "name": "ludeeus/integration_blueprint",
-    "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
-    "postCreateCommand": "scripts/setup",
-    "forwardPorts": [
-        8123
-    ],
-    "portsAttributes": {
-        "8123": {
-            "label": "Home Assistant",
-            "onAutoForward": "notify"
-        }
+    "name": "hass_nuki_bt",
+    "build": {
+        "dockerfile": "Dockerfile"
     },
+    "postCreateCommand": "scripts/setup",
+    // "forwardPorts": [
+    //     8123
+    // ],
+    "appPort": [
+        "8123:8123"
+    ],
     "customizations": {
         "vscode": {
             "extensions": [
@@ -36,7 +35,19 @@
         }
     },
     "remoteUser": "vscode",
+    "capAdd": [
+        "NET_ADMIN"
+    ],
+    "securityOpt": [
+        "seccomp=unconfined",
+        "apparmor=unconfined"
+    ],
+    "runArgs": [
+        "-v",
+        "/var/run/dbus/:/var/run/dbus/:ro",
+        "--network=host"
+    ],
     "features": {
-        "ghcr.io/devcontainers/features/rust:1": {}
+        "rust": "latest"
     }
 }
