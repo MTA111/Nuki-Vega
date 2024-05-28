@@ -1,10 +1,10 @@
-"""Constants for hass_nuki_bt."""
+"""Constants for Nuki-Vega."""
 from logging import Logger, getLogger
 
 LOGGER: Logger = getLogger(__package__)
 
-NAME = "Nuki BT"
-DOMAIN = "hass_nuki_bt"
+NAME = "Nuki-Vega"
+DOMAIN = "Nuki-Vega"
 MANUFACTURER = "nuki"
 VERSION = "0.0.0"
 
