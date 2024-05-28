@@ -1,4 +1,4 @@
-"""Constants for Nuki-Vega."""
+"""Constants for Nuki-Vega"""
 from logging import Logger, getLogger
 
 LOGGER: Logger = getLogger(__package__)
