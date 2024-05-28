@@ -18,7 +18,7 @@ This integration communicates directly with Nuki over Bluetooth. No need for bri
 * Go to HACS -> Integrations
 * Click the three dots on the top right and select `Custom Repositories`
 * Enter `https://github.com/MTA111/Nuki-Vega` as repository, select the category `Integration` and click Add
-* A new custom integration shows up for installation (Nuki BT) - install it
+* A new custom integration shows up for installation (Nuki-Vega) - install it
 * Restart Home Assistant
 
 {% endif %}
