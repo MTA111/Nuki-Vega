@@ -3,7 +3,7 @@
   "name": "Nuki-Vega",
   "bluetooth": [
     {
-      "local_name": "hass_nuki_bt"
+      "local_name": "Nuki-Vega"
     }
   ],
   "codeowners": [
