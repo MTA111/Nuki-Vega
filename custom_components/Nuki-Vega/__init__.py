@@ -1,7 +1,7 @@
 """Custom integration to integrate Nuki-Vega with Home Assistant.
 
 For more details about this integration, please refer to
-https://github.com/MTA111/Nuki_Vega
+https://github.com/MTA111/Nuki-Vega
 """
 from __future__ import annotations
 import logging
