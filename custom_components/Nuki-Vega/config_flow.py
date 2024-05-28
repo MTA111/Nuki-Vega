@@ -129,9 +129,9 @@ class NukiFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
             return await self.async_step_step1(user_input)
 
         app_id = random.getrandbits(32)
-        key pair = PrivateKey.generate()
-        public_key = bytes(key pair.public_key)
-        private_key = bytes(key pair)
+        keypair = PrivateKey.generate()
+        public_key = bytes(keypair.public_key)
+        private_key = bytes(keypair)
 
         if self._data[CONF_CLIENT_TYPE] == "App":
             client_type = NukiConst.NukiClientType.APP
