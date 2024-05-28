@@ -1,4 +1,4 @@
-# Nuki_Vega
+# Nuki-Vega
 
 [![hacs][hacsbadge]][hacs]
 ![Project Maintenance][maintenance-shield]
