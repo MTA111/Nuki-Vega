@@ -1,4 +1,4 @@
-"""Custom integration to integrate hass_nuki_bt with Home Assistant.
+"""Custom integration to integrate Nuki-Vega with Home Assistant.
 
 For more details about this integration, please refer to
 https://github.com/MTA111/Nuki_Vega
