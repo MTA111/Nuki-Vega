@@ -1,4 +1,4 @@
-"""Button platform for hass_nuki_bt."""
+"""Button platform for Nuki-Vega"""
 from dataclasses import dataclass
 import logging
 from homeassistant.components.button import ButtonEntity, ButtonEntityDescription
