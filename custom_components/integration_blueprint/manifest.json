@@ -1,12 +1,27 @@
-{
-  "domain": "integration_blueprint",
-  "name": "Integration blueprint",
-  "codeowners": [
-    "@ludeeus"
+
+  "domain": "hass_nuki_bt",
+  "name": "Nuki-Vega",
+  "bluetooth": [
+    {
+      "local_name": "hass_nuki_bt"
+    }
   ],
-  "config_flow": true,
-  "documentation": "https://github.com/ludeeus/integration_blueprint",
-  "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/ludeeus/integration_blueprint/issues",
+  "codeowners": [
+    "@MTA111"
+  ],
+  "topics": ["nuki-vega", "nuki_device"]
+  "config_flow": true
+  "dependencies": [
+    "bluetooth_adapters"
+  ],
+  "documentation": "https://github.com/MTA111/Nuki-Vega",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/MTA111/Nuki-Vega/issues",
+  "loggers": [
+    "pyNukiBT"
+  ],
+  "requirements": [
+    "pyNukiBT==0.0.9"
+  ],
   "version": "0.0.0"
 }
